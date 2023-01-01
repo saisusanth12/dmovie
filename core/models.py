@@ -1,8 +1,10 @@
-from django.db import models
+from django.db.models import Model, CharField, URLField
 
 # Create your models here.
 
-class Movie(models.Model):
-    title = models.CharField(max_length=1000)
-    video_url = models.URLField(max_length=100000000000000000000000000000, help_text='Enter your url here..')
-    trailer_url = models.URLField(max_length=100000000, help_text='Enter here..', default='')
+class Movie(Model):
+    title = CharField(max_length=99)
+    video_url = URLField(max_length=9999999999999999999999999999999999999999999999999999999999999999999)
+
+
+    
