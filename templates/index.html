@@ -13,12 +13,10 @@
     {% for movie in movies %}
         <div class = "container"style="border-radius: 10px; width: 90%; height: 200px;margin-bottom: 100px; box-sizing: border-box; margin-bottom: 100px; box-shadow: 10px 10px skyblue; margin-left: 50px; border: 1px solid;">
             <h2 style="text-align: center;">{{movie.title}}</h2>
-            <a href="{{movie.video_url}}">
+            <a href="https://2565136225.tapecontent.net/radosgw/ldKKkW0pA9C7JeY/7gtYFFKQkk8jzH9EPF24mqMuA0VhQxnbPACf5ycN5aEbU9LOpsvHitdunG7dS_u0HSBJqtSsxCPlEjhMfLtPYkIWL2lF6VbgA0cklAK3M3JVdaRtRI0L90Xg6n4n7YT5NWpSrDTDlpQ7ulm_OgCuIGushpHd_0zRomXZGPlB3LRpsPAv7XU5DB6OOTD1TNQDoW9GqWl5Ioa7o6ofQIEqSpJqCFHny24-QxxLe6cDOBeUy8UnbCbGqp-1aE1Cw3uyGcL_samVsOxuXadm/video.mp4?stream=1">
                 <button style="margin-top: 90px; margin-left: 200px;" class="btn btn-light">View</button>
             </a>
-            <a href="{{movie.trailer_url}}">
-                <button style="margin-top: 90px; margin-left: 550px;" class="btn btn-info">View Trailer</button>
-            </a>
+            
         </div>
     {% endfor %}
 </body>
